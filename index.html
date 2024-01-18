@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Mapa de Metrô e Trem SP</title>
+</head>
+<body>
+  <div id="header">
+    <img src="./img/logo-metro.png" alt="Logo" id="logo">
+  </div>
+
+  <div id="mapa">
+    <img src="./img/mapa-da-rede-metro-0522-abre-800x533.jpg" alt="Mapa Metrô e Trem SP" id="mapaImagem">
+  </div>
+
+  <button id="lupa" onclick="toggleSearchBar()">🔍</button>
+  <div id="searchBar" class="hidden">
+    <input type="text" id="searchInput" placeholder="Pesquisar estação...">
+    <button onclick="searchStation()">Pesquisar</button>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
