@@ -9,3 +9,6 @@
 
 ### Processos:
 <p> Depois da criação de uma breve interface, o primeiro passo era crias um bando de dados com a estrutura nescessaria para as estações, demonstrado abaixo.</p>
+<img src="./diagrama.png" alt="">
+
+## Passos seguintes em breve...
